@@ -30,9 +30,8 @@ header {
 }
 @media (max-width: 1000px) {
 	header {
-		
+		align-content: center;
 	}
-	
 }
 	
 }
@@ -45,4 +44,8 @@ img {
 .footer {
 	height: 200px;
 	background-color: #430410
+}
+
+h1{
+	font-family: 'Indie Flower';
 }
