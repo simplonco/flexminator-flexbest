@@ -1,51 +1,52 @@
 header {
-	width: 100%;
-	height: 400px;
-	background-image : url('https://hd.unsplash.com/photo-1434494878577-86c23bcb06b9');
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	flex-flow: column-reverse wrap;
-		
+width: 100%;
+height: 400px;
+background-image : url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/2168C075E7.jpg');
+background-size: cover;
+background-position: center;
+display: flex;
+flex-flow: column-reverse wrap;
 }
 .banner {
-	height: 20%;
-	border-top: 1px;
-	background: rgba(255, 255, 255, 0.8);
+height: 20%;
+border-top: 1px;
+background: rgba(255, 255, 255, 0.8);
 
 }
 
 .grid {
-	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
 
 }
 
 @media (max-width: 600px) {
-	.grid{
-	flex-direction: column;
-	height: auto;
-	}
+.grid{
+flex-direction: column;
+height: auto;
+}
 }
 @media (max-width: 1000px) {
-	header {
+header {
 
-	}
 }
-	
+}
 img {
-	width: 300px;
-	height: 200px;
-	padding: 10px;
+width: 300px;
+height: 200px;
+padding: 10px;
 }
 
 .footer {
-	height: 200px;
-	background: rgba(109, 7, 26, 0.1);
+height: 200px;
+background: rgba(109, 7, 26, 0.1);
 }
 
 h1{
-	font-family: 'Indie Flower';
+font-family: 'Indie Flower';
+text-align :center;
+margin-top : 13px;
+font-size: 50px;
 }
