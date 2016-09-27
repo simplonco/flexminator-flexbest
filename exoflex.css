@@ -11,7 +11,6 @@ header {
 .banner {
 	height: 20%;
 	border-top: 1px;
-	border-color: white;
 	background: rgba(255, 255, 255, 0.8);
 
 }
@@ -32,8 +31,7 @@ header {
 }
 @media (max-width: 1000px) {
 	header {
-		align-content: center;
-		background-size: cover;
+
 	}
 }
 	
@@ -45,7 +43,7 @@ img {
 
 .footer {
 	height: 200px;
-	background-color: #430410
+	background: rgba(109, 7, 26, 0.1);
 }
 
 h1{
