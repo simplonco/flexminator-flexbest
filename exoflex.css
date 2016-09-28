@@ -103,6 +103,7 @@ ul{
 		flex-direction: column;
 		height: 500px;
 		padding-bottom : 30px;
+		padding-top: 30px;
 	}
 	
 }
